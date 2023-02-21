@@ -1,3 +1,5 @@
+import java.util * ; // na te zien
+
 class Node{
   ArrayList<Node> nodes = new ArrayList<>();  
   

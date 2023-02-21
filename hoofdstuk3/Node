@@ -1,5 +1,8 @@
 class Node{
+  ArrayList<Node> nodes = new ArrayList<>();  
+  
+  public Node (){}; // constructor
+  
 
 
-
-
+}

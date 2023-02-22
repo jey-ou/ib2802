@@ -1,14 +1,19 @@
 // test
 import java.util* ; // na te zien
 
-class T Node{
-  ArrayList<Node> nodes = new ArrayList<>();  // voor tree graph
-  T label;
+class Node{
+  //ArrayList<Node> nodes = new ArrayList<>();  // voor tree graph
+  String label;
+  int value;
   
-  public Node (T label){
+  public Node (String label){
     this.label = label;
   }; // constructor
-
+  public Node (String Label, int value) {
+    this.label = label;
+    this.value = value;
+  }
+  /**
   public void addNode(Node n){ // kan niet voor node wel voor tree, graph
     nodes.add(n);
   }
@@ -21,4 +26,5 @@ class T Node{
   public ArrayList<Node> getNodelist(){ //kan niet voor node wel voor tree, graph
     return nodes; 
   }
+  **/
 }

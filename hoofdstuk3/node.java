@@ -15,17 +15,26 @@ class Node{
     this.value = value;
   }
   
-  public bool changeValue(int value){
+  public bool setValue(int value){
     this.value = value;
     return true;
   }
 
-  public bool changeLabel(String label){
+  public bool setLabel(String label){
     this label = label;
     return true;
   }
   
-  public bool changeNode(Node node){
+  public bool setNode(Node node){
     this.node = node;
     return true;
+  }
+  public int getValue(){
+    return value;
+  }
+  public String getLabel(){
+     return label;
+  }
+  
+  
 }

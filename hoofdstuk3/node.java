@@ -1,9 +1,9 @@
 // test
-import java.util* ; // na te zien
+import java.util.* ; // na te zien
 
 class Node{
-  String label; een gewone label 
-  int value; // heuristic value
+  String label; //een gewone label 
+  int value;  // heuristic value
   Node node; // voor een graph
   
   public Node(){}
@@ -15,17 +15,17 @@ class Node{
     this.value = value;
   }
   
-  public bool setValue(int value){
+  public Boolean setValue(int value){
     this.value = value;
     return true;
   }
 
-  public bool setLabel(String label){
-    this label = label;
+  public Boolean setLabel(String label){
+    this.label = label;
     return true;
   }
   
-  public bool setNode(Node node){
+  public Boolean setNode(Node node){
     this.node = node;
     return true;
   }

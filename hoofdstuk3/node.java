@@ -4,7 +4,10 @@ import java.util.* ; // na te zien
 class Node{
   String label; //een gewone label 
   int value;  // heuristic value
+  Node parent;
+  ArrayList<Node> children;
   Node node; // voor een graph
+  int branchfactor;
   
   public Node(){}
   public Node (String label){
